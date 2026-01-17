@@ -1,0 +1,13 @@
+{
+  "project_title": "Reading Queue Planner",
+  "goal": "Balance the reading queue across genres and estimate effort.",
+  "entity_name": "book",
+  "amount_label": "pages",
+  "score_label": "priority_score",
+  "categories": [
+    "fiction",
+    "nonfiction",
+    "tech",
+    "history"
+  ]
+}

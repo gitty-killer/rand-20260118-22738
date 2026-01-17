@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "book-01",
+      "name": "book_01",
+      "category": "fiction",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "book-02",
+      "name": "book_02",
+      "category": "nonfiction",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "book-03",
+      "name": "book_03",
+      "category": "tech",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "book-04",
+      "name": "book_04",
+      "category": "history",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "book-05",
+      "name": "book_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "book-06",
+      "name": "book_06",
+      "category": "nonfiction",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "book-07",
+      "name": "book_07",
+      "category": "tech",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "book-08",
+      "name": "book_08",
+      "category": "history",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "book-09",
+      "name": "book_09",
+      "category": "fiction",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "book-10",
+      "name": "book_10",
+      "category": "nonfiction",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "book-11",
+      "name": "book_11",
+      "category": "tech",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "book-12",
+      "name": "book_12",
+      "category": "history",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "book-12",
+    "issue_count": 1
+  }
+}
